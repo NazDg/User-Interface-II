@@ -93,6 +93,8 @@ blockquote, q {
      display:flex;
      justify-content: flex-end;
      flex-direction: row;
+    width: 100%;
+    z-index: 999;
  }
  h1{
      display:flex;
@@ -125,12 +127,14 @@ blockquote, q {
     color: White;
     text-align: center;
     font-size:xx-large;
+    margin: 100%;
  }
  .middle a{
      display: flex;
      justify-content: space-around;
      color: white;
      background-color: black;
+     margin: 10%;
  }
 
  .bottom figure{
@@ -240,4 +244,14 @@ blockquote, q {
 .footer {
     display: flex;
     justify-content: space-around;
+}
+
+/* responsive styles */
+
+media(max-width: 800px){
+
+}
+
+media(max-width: 500px) {
+    
 }
