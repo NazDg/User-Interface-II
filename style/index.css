@@ -241,3 +241,25 @@ blockquote, q {
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 800px){
+    html {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px 1.25%;
+      }
+    }
+
+@media (max-width: 500px) {
+ div{
+    font-size: 90%;
+    padding: 10px;  
+}
+}
+ @media (max width: 200px){
+     .links {
+         margin: 10px 10px;
+     }
+ }
+
+
